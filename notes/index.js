@@ -9,7 +9,11 @@ const NAME_PROJ = '"NOTE"-"BOOK"';
 
 let notes = [];
 
-let str = `Тебя приветствует приложение ${NAME_PROJ}`;
+let welcome = `Тебя приветствует приложение ${NAME_PROJ}`;
+
+const welcomeApp = () => {
+    console.log(`${welcome}`);
+};
 
 const addNote = () => {
   rl.question("Введите заголовок", (title) => {
@@ -42,7 +46,6 @@ const showNotes = () => {
 };
 
 const showMenu = () => {
-  console.log(`${str}`);
   console.log(`Всего заметок ${notes.length}`);
   console.log("Главное меню");
   console.log("1. Доюавить заметку");
