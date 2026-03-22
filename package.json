@@ -3,7 +3,6 @@
     "version": "0.0.6",
     "description": "Консольное приложение для заметок",
     "main": "index.mjs",
-    "type": "module",
     "scripts": {
       "start": "node index.mjs",
       "dev": "node --watch index.mjs"
